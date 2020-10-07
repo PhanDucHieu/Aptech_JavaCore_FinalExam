@@ -98,13 +98,13 @@ public class Categories implements ICategories,Serializable {
 	public void displayData() {
 		System.out.printf("Ma danh muc: %d - Ten danh muc: %s\n",this.catalogId,this.catalogName);
 		System.out.printf("Mo ta: %s\n",this.descriptions);
-		String trangThai;
+		String trangThai = "" ;
 		if (catalogStatus) {
 			trangThai = "Hoat Dong";
 		}else {
 			trangThai = "Khong Hoat Dong";
 		}
-		System.out.printf("Danh muc cha: %d - Trang thai: %s\n",this.parentId,trangThai);	
+		System.out.printf("Danh muc cha: %d - Trang thai: %s\n",this.parentId,trangThai);
 	}
 
 }
