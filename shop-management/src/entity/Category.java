@@ -70,12 +70,12 @@ public class Category implements Serializable, DataInputtable, DataDisplayable {
 
   @Override
   public void displayData() {
-
+    // TODO - show category data
   }
 
   @Override
   public void inputData() {
-
+    // TODO - input category data
   }
 
 }

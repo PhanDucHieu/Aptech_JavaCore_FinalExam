@@ -101,16 +101,17 @@ public class Product implements Serializable, DataInputtable, DataDisplayable, P
 
   @Override
   public void displayData() {
-
+    // TODO - show product info, when you want to show profit data, call calculateProfit() method bellow
   }
 
   @Override
   public void inputData() {
-
+    // TODO - input product data
   }
 
   @Override
   public float calculateProfit() {
+    // TODO - calculate profit data
     return 0;
   }
 
